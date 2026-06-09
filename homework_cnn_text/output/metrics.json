@@ -1,0 +1,127 @@
+{
+  "test_metrics": {
+    "accuracy": 0.7927927927927928,
+    "precision_macro": 0.8018234580734581,
+    "recall_macro": 0.7940476190476191,
+    "f1_macro": 0.7911750769959726,
+    "precision_weighted": 0.8094037384577925,
+    "recall_weighted": 0.7927927927927928,
+    "f1_weighted": 0.7940631463019523
+  },
+  "classification_report": "              precision    recall  f1-score   support\n\n       sport       1.00      0.80      0.89        30\n   economics       0.77      0.67      0.71        30\n     science       0.73      0.90      0.81        30\n     culture       0.71      0.81      0.76        21\n\n    accuracy                           0.79       111\n   macro avg       0.80      0.79      0.79       111\nweighted avg       0.81      0.79      0.79       111\n",
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.6235834634511568,
+      "train_acc": 0.30947775628626695,
+      "val_loss": 1.3515044880342912,
+      "val_acc": 0.3333333333333333
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.152647442928366,
+      "train_acc": 0.4990328820116054,
+      "val_loss": 1.03630127079852,
+      "val_acc": 0.6306306306306306
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.9523130597643972,
+      "train_acc": 0.6092843326885881,
+      "val_loss": 0.9276240102879636,
+      "val_acc": 0.6666666666666666
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.7269213231896524,
+      "train_acc": 0.7524177949709865,
+      "val_loss": 0.8312320005786311,
+      "val_acc": 0.8288288288288288
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6044057453739343,
+      "train_acc": 0.7852998065764023,
+      "val_loss": 0.7863707682033917,
+      "val_acc": 0.7657657657657657
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.5179639571063523,
+      "train_acc": 0.8491295938104448,
+      "val_loss": 0.7250162765786454,
+      "val_acc": 0.7927927927927928
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.41699724928322796,
+      "train_acc": 0.8936170212765957,
+      "val_loss": 0.6704226866498724,
+      "val_acc": 0.9099099099099099
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.33419794952442844,
+      "train_acc": 0.9303675048355899,
+      "val_loss": 0.6343401885247445,
+      "val_acc": 0.8648648648648649
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.3258478092155789,
+      "train_acc": 0.9361702127659575,
+      "val_loss": 0.6550683862454182,
+      "val_acc": 0.7837837837837838
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.26804173064762205,
+      "train_acc": 0.9477756286266924,
+      "val_loss": 0.6082436334979426,
+      "val_acc": 0.7747747747747747
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.21057831892307768,
+      "train_acc": 0.9671179883945842,
+      "val_loss": 0.5886302641383162,
+      "val_acc": 0.8198198198198198
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.21332242594927375,
+      "train_acc": 0.9535783365570599,
+      "val_loss": 0.5548085352858981,
+      "val_acc": 0.8558558558558559
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.17014790662137405,
+      "train_acc": 0.97678916827853,
+      "val_loss": 0.5182928255012443,
+      "val_acc": 0.8828828828828829
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.16300472836199303,
+      "train_acc": 0.9709864603481625,
+      "val_loss": 0.5434194338751269,
+      "val_acc": 0.8288288288288288
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.14915781326923425,
+      "train_acc": 0.9748549323017408,
+      "val_loss": 0.49484313500894084,
+      "val_acc": 0.8828828828828829
+    }
+  ],
+  "dataset_sizes": {
+    "total": 739,
+    "train": 517,
+    "val": 111,
+    "test": 111
+  },
+  "vocab_size": 6030,
+  "model_path": "C:\\Users\\Arseny\\emotion_recognition_app\\homework_cnn_text\\output\\text_cnn_weights.pt"
+}
