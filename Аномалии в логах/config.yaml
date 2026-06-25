@@ -1,0 +1,12 @@
+random_state: 42
+window: 24
+n_sigma: 3
+iqr_multiplier: 1.5
+min_contamination: 0.05
+train_ratio: 0.8
+threshold_search:
+  percentile_min: 85.0
+  percentile_max: 99.75
+  percentile_step: 0.25
+paths:
+  model_dir: models

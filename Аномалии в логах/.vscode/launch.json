@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Train model",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.models.train",
+      "args": ["--data_path", "web_traffic.csv", "--config_path", "config.yaml"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "Predict anomalies",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.models.predict",
+      "args": ["--data_path", "web_traffic.csv", "--config_path", "config.yaml"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    }
+  ]
+}
